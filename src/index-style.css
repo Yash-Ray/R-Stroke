@@ -1,11 +1,16 @@
 html {
     padding: 0px;
     margin: 0px;
+    overflow: scroll;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #212121;
+    background-color: #212121;    
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 .btn-login, .btn-signup {
@@ -99,12 +104,22 @@ a:hover {
 #section1 {
     /* width: 100vw; */
     height: 75vh;
+    background: blue;
 }
 .footer1 {
     border: 2px solid red;
     height: 25vh;
+    background-color: chartreuse;
+    
 }
 
+.row {
+    border: 2px solid red;
+}
+.col {
+    color: white;
+    border: 1px dashed pink;
+}
 
 
 
