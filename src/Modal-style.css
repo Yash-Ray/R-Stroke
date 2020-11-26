@@ -16,6 +16,12 @@
     margin:auto;
 }
 
+.modal-footer {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    padding-bottom: 20px;
+}
 .username-login, .password-login {
     margin: 40px 0px;
 }
