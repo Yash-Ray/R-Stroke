@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://kit.fontawesome.com/91fe8d7d40.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="index-style.css">
     <link rel="stylesheet" href="./Modal-style.css">
 
@@ -66,7 +67,7 @@
     <section id="section1">
           <div class="container-fluid">
             <div class="row">
-              <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="900">
                 <div class="stepcount">
                   Step 1
                 </div>
@@ -88,7 +89,7 @@
 
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
                 <div class="stepcount">
                   Step 2
                 </div>
@@ -111,7 +112,7 @@
 
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+              <div class="col col-lg-4 col-md-12 col-sm-12 col-12" data-aos="fade-up"  data-aos-delay="600" data-aos-duration="900">
                 <div class="stepcount">
                   Step 3
                 </div>
@@ -133,12 +134,19 @@
 
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
       </section>
 
+      <!-- The Footer content has TBD -->
       <footer class="footer1">
+        <div class="ray-info">
 
+
+        </div>
+        <div class="maddy-info">
+
+        </div>
       </footer>
 
     <div class="modal fade" id="ProfileModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -243,6 +251,11 @@
           </div>
         </div>
       </div>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     
 </body>
 </html>
