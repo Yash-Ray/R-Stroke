@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #212121;    
+    background-color: #212121;   
 }
 ::-webkit-scrollbar {
     width: 0px;
@@ -61,12 +61,19 @@ h3 {
 }
 img {
     height: 30vw;
-    width: 45vh;
+    width: 25vw;
     border-radius: 20px;    
     box-shadow: 5px 5px 10px black;
+    /* position: absolute; */
+    /* margin: 0px auto; */
+    
+}
+.image {
+    /* width: 100%; */
     position: absolute;
-    margin-left: 65%;
-    margin-top: -3%;
+    right: 10%;
+    top: 20%;
+    transform: translate(0%,5%);
 }
 
 .herotxt {
@@ -127,7 +134,7 @@ a:hover {
     /* border: 1px dashed pink; */
     height: 450px;
     width: 100%;
-    margin-bottom: 12.5vh;
+    /* margin-bottom: 12.5vh; */
 }
 
 .stepcard {
@@ -227,5 +234,13 @@ a:hover {
     max-width: 200px;
 }
 
+.container-fluid {
+    display: block;
+}
+
+
 /* *********************** */
-/* IDENTIFICATION OF DIVS */
+/* MEDIA QUERIES */
+
+
+@media all screen and (max-width:
