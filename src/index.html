@@ -67,7 +67,7 @@
     <section id="section1">
           <div class="container-fluid">
             <div class="row">
-              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="900">
+              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
                 <div class="stepcount">
                   Step 1
                 </div>
@@ -89,7 +89,7 @@
 
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
+              <div class="col col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900" data-aos-once="true">
                 <div class="stepcount">
                   Step 2
                 </div>
@@ -112,7 +112,7 @@
 
                 </div>
               </div>
-              <div class="col col-lg-4 col-md-12 col-sm-12 col-12" data-aos="fade-up"  data-aos-delay="600" data-aos-duration="900">
+              <div class="col col-lg-4 col-md-12 col-sm-12 col-12" data-aos="fade-up"  data-aos-delay="600" data-aos-duration="900" data-aos-once="true">
                 <div class="stepcount">
                   Step 3
                 </div>
@@ -135,17 +135,23 @@
                 </div>
               </div>
             </div>
+            <div class="start" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"  data-aos-once="true" >
+              <a class="start-btn-link" href="template-select.html"><button class="start-process" disableb>Build Resume</button></a>
+            </div>
           </div>
+
+          
       </section>
 
       <!-- The Footer content has TBD -->
       <footer class="footer1">
-        <div class="ray-info">
-
-
+        <div class="gen-info">
+          <p class="copyright-txt">Copyright © 2020. All rights reserved.</p>
         </div>
-        <div class="maddy-info">
-
+        <div class="contact-info">
+          <button type="button" class="btn-contact" data-toggle="modal" data-target="#ContactUsModal">
+            Contact-Us
+          </button>
         </div>
       </footer>
 
@@ -205,7 +211,7 @@
                 </div>
                 <div class="modal-footer">
                   <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-                  <button type="button" class="btn btn-primary">Login</button>
+                  <button type="submit" class="btn btn-primary">Login</button>
               </div>
               </form>
             </div>
@@ -243,7 +249,7 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-primary " style="width: fit-content;">Sign-Up</button>
+                  <button type="submit" class="btn btn-primary " style="width: fit-content;">Sign-Up</button>
                 </div>
               </form>
             </div>
@@ -252,9 +258,46 @@
         </div>
       </div>
 
+      <div class="modal fade" id="ContactUsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Contact-Us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span id="cross-btn" aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="conatct-modal">
+              <div class="inner-body">
+                <div class="maddy-info">
+                  <h6>Madhav Anand</h6>
+                  +91 8210112958<br>
+                  <a href="https://www.linkedin.com/in/yash-ray-cri80vt/" target="_blank"><i class="fab fa-linkedin ctus"></i></a>
+                  <a href="https://github.com/Yash-Ray" target="_blank"><i class="fab fa-github-square ctus"></i></a>
+                  <a href="mailto:ray.yash.08@gmail.com" target="_blank"><i class="fas fa-envelope-square ctus"></i></a>
+                  <a href="https://www.instagram.com/yashray_08/" target="_blank"><i class="fab fa-instagram-square ctus"></i></a>
+                  <a href="https://drive.google.com/file/d/10q3O4x8DIylfMtnPuUTQLc2_WGMEN3KH/view?usp=sharing" download target="_blank"><i class="fas fa-file-pdf ctus pdf1"></i></a>
+                </div>
+                <div class="ray-info">
+                  <h6>Yash Ray</h6>
+                  +91 8210112958<br>
+                  <a href="https://www.linkedin.com/in/yash-ray-cri80vt/" target="_blank"><i class="fab fa-linkedin ctus"></i></a>
+                  <a href="https://github.com/Yash-Ray" target="_blank"><i class="fab fa-github-square ctus"></i></a>
+                  <a href="mailto:ray.yash.08@gmail.com" target="_blank"><i class="fas fa-envelope-square ctus"></i></a>
+                  <a href="https://www.instagram.com/yashray_08/" target="_blank"><i class="fab fa-instagram-square ctus"></i></a>
+                  <a href="https://drive.google.com/file/d/10q3O4x8DIylfMtnPuUTQLc2_WGMEN3KH/view?usp=sharing" download target="_blank"><i class="fas fa-file-pdf ctus pdf1"></i></a>
+                </div>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init()
   </script>
     
 </body>
